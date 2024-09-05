@@ -17,5 +17,6 @@ class cbrn{
         class checkOxygen{};
         class loadoutEH{};
         class fogPFH{};
+        class manageEventHandlers{};
     };
 };

@@ -78,3 +78,4 @@ cbrn_vehicles = [
 
 // Configuration for KAT - Advanced Medical
 cbrn_kat_enabled = isClass(configfile >> "CfgPatches" >> "kat_main");
+cbrn_medicines = [["Adenosine", 30], ["Atropine", 70]];

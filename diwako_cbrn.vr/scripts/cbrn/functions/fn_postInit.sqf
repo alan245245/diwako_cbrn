@@ -18,6 +18,8 @@ if (isServer) then {
     } forEach cbrn_vehicles;
 };
 
+call CBRN_fnc_manageEventHandlers;
+
 ["DeconShower_01_F", "initPost",{
     (_this select 0) call cbrn_fnc_setUpDeconShower;
 }, false, [], true]call CBA_fnc_addClassEventHandler;
